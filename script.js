@@ -15,9 +15,20 @@ function monstrar() {
       //   Logradouro
       document.getElementById("logradouro").value = data.logradouro;
       document.getElementById("logradouro").setAttribute("disabled", "");
-
-      document.getElementById("cidade").value = data.cidade;
-      document.getElementById("cidade").setAttribute("disabled", "");
     })
     .catch((error) => console.log(error));
+}
+function exibe() {
+  const city = document.getElementById("cidade").value;
+  const state = document.getElementById("estado").value;
+  const district = document.getElementById("bairro").value;
+  const publicPlace = document.getElementById("logradouro").value;
+  const number = document.getElementById("numero").value;
+  const complement = document.getElementById("complemento").value;
+
+  document.getElementById(
+    "local"
+  ).innerText = `Você reside no estado ${state}, na cidade de ${city}, 
+  bairro ${district}, logradouro ${publicPlace}, número ${number} e 
+  complemento ${complement}`;
 }

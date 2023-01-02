@@ -4,6 +4,8 @@
 .container {
   display: flex;
   gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
 }
 .formCEP {
   display: flex;
@@ -40,4 +42,11 @@ button:focus {
   opacity: 0.7;
   color: white;
   font-weight: bold;
+}
+#local {
+  display: flex;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: white;
 }
