@@ -1,0 +1,43 @@
+* {
+  background: #9dd6b3;
+}
+.container {
+  display: flex;
+  gap: 2rem;
+}
+.formCEP {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin-left: 2rem;
+}
+.formCEP h2 {
+  text-align: center;
+}
+img {
+  width: 30rem;
+}
+input {
+  height: 1.5rem;
+  padding: 0.3rem;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+  border: none;
+  background: white;
+}
+button {
+  border: none;
+  background: #b62b5e;
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+button:hover,
+button:focus {
+  outline: none;
+  background: #e43e76;
+  cursor: pointer;
+  opacity: 0.7;
+  color: white;
+  font-weight: bold;
+}
