@@ -18,7 +18,7 @@ function monstrar() {
     })
     .catch((error) => console.log(error));
 }
-function exibe() {
+function exibir() {
   const city = document.getElementById("cidade").value;
   const state = document.getElementById("estado").value;
   const district = document.getElementById("bairro").value;
